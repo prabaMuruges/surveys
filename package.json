@@ -1,0 +1,18 @@
+{
+  "name": "surveys",
+  "version": "1.0.0",
+  "description": "Send surveys as you wish [Learning node.js BTW]",
+	"main": "index.js",
+	"engines": {
+		"node": "13.1.0",
+		"npm": "6.12.1"
+	},
+  "scripts": {
+		"start": "node index.js"
+  },
+  "author": "Praba",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
