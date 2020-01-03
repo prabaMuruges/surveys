@@ -21,8 +21,8 @@ require('./services/passport');
 
 mongoose.connect(keys.mongoURI, {
   auth: {
-    user: 'admin',
-    password: '4XG!iM%D5%gT'
+    user: keys.mongoUserName,
+    password: keys.mongoPassword
   },
   useNewUrlParser: true
 }, function(err, client) {
